@@ -63,8 +63,8 @@ def polygon(point, length, n, angle=0):
 # np = 6
 # polygon(point=point_p, length=length_p, n=np)
 # polygon(point=sd.get_point(400, 400), length=50, n=4)
-for angle in range(0, 361, 10):
-    polygon(point=sd.get_point(500, 500), length=200, n=4, angle=angle)
+for angle in range(0, 361, 15):
+    polygon(point=sd.get_point(500, 500), length=200, n=3, angle=angle)
 
 
 
